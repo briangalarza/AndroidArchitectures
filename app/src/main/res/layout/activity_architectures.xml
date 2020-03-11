@@ -12,20 +12,23 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_margin="@dimen/main_margin_button"
-       android:text="@string/common_mvc"/>
+       android:text="@string/common_mvc"
+       android:onClick="onMVC"/>
 
    <Button
        android:id="@+id/btnMVP"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_margin="@dimen/main_margin_button"
-       android:text="@string/common_mvp"/>
+       android:text="@string/common_mvp"
+       android:onClick="onMVP"/>
 
    <Button
        android:id="@+id/btnMVVM"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_margin="@dimen/main_margin_button"
-       android:text="@string/common_mvvm"/>
+       android:text="@string/common_mvvm"
+       android:onClick="onMVVM"/>
 
 </LinearLayout>
