@@ -3,4 +3,6 @@
     <string name="common_mvc">MVC</string>
     <string name="common_mvp">MVP</string>
     <string name="common_mvvm">MVVM</string>
+    <string name="button_retry">Intente de nuevo</string>
+    <string name="error_message">Intente nuevamente</string>
 </resources>
