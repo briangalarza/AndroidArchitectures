@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.briangalarza.androidarchitectures.mvc.MVCActivity;
 import com.briangalarza.androidarchitectures.mvp.MVPActivity;
@@ -15,6 +16,9 @@ public class ArchitectureActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_architectures);
+        Toast.makeText(this,"probando",Toast.LENGTH_SHORT).show();
+
+
     }
 
     public void onMVC (View view){
@@ -29,6 +33,7 @@ public class ArchitectureActivity extends AppCompatActivity {
     public void onMVVM (View view){
         startActivity(MVVMActivity.getIntent(this));
     }
+
 
 
 }
